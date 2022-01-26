@@ -2,12 +2,15 @@
   list-style-type: none;
   padding-left: 0%;
 }
+.package-container{
+  width: 90%;
+}
 .fa-check-circle {
   color: rgb(30, 135, 177);
   margin-right: 10px;
 }
 .package-card-main {
-  height: 500px;
+  height: 550px;
 }
 .package-card {
   border: 0;
@@ -17,18 +20,36 @@
   background-color: rgb(235, 235, 235);
   border-radius: 20px;
 }
-.client-feedback {
-  border-radius: 20px;
-  width: 30%;
-}
 
 /* animation */
 .package-card:hover {
   background-color: rgb(30, 135, 177);
   color: aliceblue;
-  transform: scale(1.1);
+  transform: scale(1.04);
   transition: transform ease-in-out 0.3s;
 }
 .package-card:hover .fa-check-circle {
   color: white;
+}
+
+
+
+/* footer */
+footer{
+    background-color: rgb(30, 135, 177);
+}
+.footer-text{
+    color: aliceblue;
+}
+.footer-util a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.fa-apple,.fa-google-play{
+    font-size: 25px;
+}
+.footer-button{
+    height: 60px;
+    background-color: rgb(36, 36, 36);
+    border-radius: 6px;
 }
