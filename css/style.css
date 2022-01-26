@@ -1,23 +1,34 @@
-.package-facilities{
-    list-style-type: none;
-    padding-left: 0%;
+.package-facilities {
+  list-style-type: none;
+  padding-left: 0%;
 }
-.fa-check-circle{
-    color: rgb(96, 176, 207);
-    margin-right: 10px;
+.fa-check-circle {
+  color: rgb(30, 135, 177);
+  margin-right: 10px;
 }
-.package-card-main{
-    height: 500px;
+.package-card-main {
+  height: 500px;
 }
-.package-card{
-    border: 0;
-    border-radius: 20px;
+.package-card {
+  border: 0;
+  border-radius: 20px;
 }
-.package-footer{
-    background-color: rgb(235, 235, 235);
-    border-radius: 20px;
+.package-footer {
+  background-color: rgb(235, 235, 235);
+  border-radius: 20px;
 }
-.client-feedback{
-    border-radius: 20px;
-    width: 30%;
+.client-feedback {
+  border-radius: 20px;
+  width: 30%;
+}
+
+/* animation */
+.package-card:hover {
+  background-color: rgb(30, 135, 177);
+  color: aliceblue;
+  transform: scale(1.1);
+  transition: transform ease-in-out 0.3s;
+}
+.package-card:hover .fa-check-circle {
+  color: white;
 }
