@@ -1,0 +1,23 @@
+.package-facilities{
+    list-style-type: none;
+    padding-left: 0%;
+}
+.fa-check-circle{
+    color: rgb(96, 176, 207);
+    margin-right: 10px;
+}
+.package-card-main{
+    height: 500px;
+}
+.package-card{
+    border: 0;
+    border-radius: 20px;
+}
+.package-footer{
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+}
+.client-feedback{
+    border-radius: 20px;
+    width: 30%;
+}
