@@ -13,9 +13,9 @@
 </head>
 <header>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">City Hall Convention Center</a>
+            <a class="navbar-brand fw-bold" href="#" >City Hall Convention Center</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -23,16 +23,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#package-section">Packages</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Packages</a>
+                        <a class="nav-link" href="#reviews">Reviews</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Contact</a>
+                        <a class="nav-link" href="#q&a">Q&A</a>
                     </li>
                 </ul>
             </div>
@@ -97,7 +97,6 @@
         </button>
     </div>
 
-
     <!-- Intro -->
     <div class="container my-5 mx-auto p-5 g-4">
         <div class="row row-cols-lg-2 row-cols-1 row-cols-md-2  align-items-center">
@@ -122,8 +121,9 @@
 
 <body>
 
+
     <!-- Packages -->
-    <div class="container package-container mb-5 mt-5 mx-auto">
+    <div class="container package-container mb-5 mt-5 mx-auto" id="package-section">
         <h3 class="fw-bold text-center mb-5">Our Packages</h3>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 row-cols-xl-4 row-cols-xxl-4 g-4">
             <div class="col package package-card-main ">
@@ -254,7 +254,7 @@
     </div>
 
     <!-- Client's Feedback -->
-    <div class="feedback mb-5 mt-5">
+    <div class="feedback mb-5 mt-5" id="reviews">
         <div class="container">
             <h3 class="text-center fw-bold mb-5">Client's Feedback</h3>
             <div class="row row-cols-lg-3 row-cols-1 text-center">
@@ -291,7 +291,7 @@
     </div>
 
     <!-- Frequently asked questions -->
-    <div class="questions mt-5 mb-5">
+    <div class="questions mt-5 mb-5" id="q&a">
         <h3 class="fw-bold text-center mb-5">Frequently asked questions</h3>
         <div class="container">
             <div class="row row-cols-lg-2 row-cols-1 row-md-lg-2 align-items-center g-4">
@@ -302,18 +302,13 @@
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                                     aria-controls="panelsStayOpen-collapseOne">
-                                    Accordion Item #1
+                                    <h5>What’s the difference between event design and event planning?</h5> 
                                 </button>
                             </h2>
                             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                                 aria-labelledby="panelsStayOpen-headingOne">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <p>Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.</p> 
                                 </div>
                             </div>
                         </div>
@@ -322,18 +317,18 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                                     aria-controls="panelsStayOpen-collapseTwo">
-                                    Accordion Item #2
+                                    <h5>How early do we need to start planning an event</h5>
                                 </button>
                             </h2>
                             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="panelsStayOpen-headingTwo">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <p>This is the second item's accordion body.</strong> It is hidden by default,
+                                        until the collapse plugin adds the appropriate classes that we use to style each
+                                        element. These classes control the overall appearance, as well as the showing and
+                                        hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                        our default variables. It's also worth noting that just about any HTML can go within
+                                        the <code>.accordion-body</code>, though the transition does limit overflow.</p>
                                 </div>
                             </div>
                         </div>
@@ -342,18 +337,38 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                                     aria-controls="panelsStayOpen-collapseThree">
-                                    Accordion Item #3
+                                    <h5>What is your refund and cancellation policy?</h5>
                                 </button>
                             </h2>
                             <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="panelsStayOpen-headingThree">
                                 <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <p>This is the third item's accordion body.</strong> It is hidden by default,
+                                        until the collapse plugin adds the appropriate classes that we use to style each
+                                        element. These classes control the overall appearance, as well as the showing and
+                                        hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                        our default variables. It's also worth noting that just about any HTML can go within
+                                        the <code>.accordion-body</code>, though the transition does limit overflow.</p> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingfour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapserfour">
+                                    <h5>How do you keep budgets on track?</h5>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingfour">
+                                <div class="accordion-body">
+                                    <p>This is the third item's accordion body.</strong> It is hidden by default,
+                                        until the collapse plugin adds the appropriate classes that we use to style each
+                                        element. These classes control the overall appearance, as well as the showing and
+                                        hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                        our default variables. It's also worth noting that just about any HTML can go within
+                                        the <code>.accordion-body</code>, though the transition does limit overflow.</p> 
                                 </div>
                             </div>
                         </div>
@@ -387,7 +402,7 @@
         <div class="order-1 order-sm-2 order-lg-2 order-md-2">
             <div class="d-flex  gap-2 ">
                 <div class="footer-util d-flex flex-column gap-3">
-                    <a class="footer-button d-flex align-items-center p-4" href="http:apple.com">
+                    <a class="footer-button d-flex align-items-center p-4" href="https://www.apple.com/app-store/" target="_blank">
                         <div>
                             <i class="fab fa-apple me-3"></i>
                         </div>
@@ -397,7 +412,7 @@
                             </small>
                         </div>
                     </a>
-                    <a class="footer-button d-flex align-items-center p-4" href="http:apple.com">
+                    <a class="footer-button d-flex align-items-center p-4" href="https://play.google.com/store/apps"  target="_blank">
                         <div>
                             <i class="fab fa-google-play me-3"></i>
                         </div>
