@@ -11,6 +11,7 @@ nav{
 }
 .package-container{
   width: 90%;
+  padding-bottom: 90px;
 }
 .fa-check-circle {
   color: rgb(30, 135, 177);
